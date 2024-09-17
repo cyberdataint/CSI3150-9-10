@@ -1,0 +1,29 @@
+Symantic tags 
+
+Header - <Header>...... </Header>
+Footer - <Footer>.....</Footer>
+
+Main Content - <Main>....</Main>
+
+To create sections in the main content or Sub sections for content 
+Use - <Section>.....</section>
+
+Stand alone content - <article> ...... </article>
+
+Complmentary information - <aside>.....</aside>
+
+Semantic tag for images - <Figure>.....</figure>
+        To add content to image   - <figcaption>..... <figcaption>
+
+
+
+Body = Header + Main + Footer
+
+
+Create grouping 
+1. Unique identifier -------------- Attribute > id = Value 
+2. create cluster identifier ------ Attribute > Class = Value
+
+
+
+<Div> ---- to create containter that might simply strucuring stylying * when no semenatics are involved 
