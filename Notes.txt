@@ -27,3 +27,11 @@ Create grouping
 
 
 <Div> ---- to create containter that might simply strucuring stylying * when no semenatics are involved 
+
+
+
+Crud?  - Methods
+Create - Post 
+REad   - Get 
+Update - update/alter/patch 
+Delete - Delete 
