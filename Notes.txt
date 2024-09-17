@@ -1,4 +1,4 @@
-Symantic tags 
+Semantic tags 
 
 Header - <Header>...... </Header>
 Footer - <Footer>.....</Footer>
@@ -10,7 +10,7 @@ Use - <Section>.....</section>
 
 Stand alone content - <article> ...... </article>
 
-Complmentary information - <aside>.....</aside>
+Complementary information - <aside>.....</aside>
 
 Semantic tag for images - <Figure>.....</figure>
         To add content to image   - <figcaption>..... <figcaption>
@@ -26,12 +26,12 @@ Create grouping
 
 
 
-<Div> ---- to create containter that might simply strucuring stylying * when no semenatics are involved 
+<Div> ---- to create container that might simply structuring styling * when no semantics are involved 
 
 
 
 Crud?  - Methods
 Create - Post 
-REad   - Get 
+Read   - Get 
 Update - update/alter/patch 
-Delete - Delete 
+Delete - Delete
