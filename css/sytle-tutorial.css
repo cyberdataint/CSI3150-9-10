@@ -1,0 +1,124 @@
+/*
+ This is a comment in Css file 
+ Syntac for general css property: 
+ Selector{Css-property: background-color: red; color: white;}
+ *selector{css-property: value;}
+
+
+
+Selector: 
+Use the html tag name 
+body, div, p , article, img, audio, video, .... 
+
+ID or class anme 
+(div id = 'app-container' class ='wrapper')
+
+#app-container{css-property: value;
+.wrapper{css-property: value;}
+
+
+
+*/ 
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace; /* will show later how to intergrate google fonts */
+
+    /* HOW TO DECLARE ADN USE CSS VARIABLES */
+    --primary-background-color: #d91433;
+
+
+}
+
+body{
+    background-color: bisque;
+    background-image: url('');
+
+}
+#primary-heading{
+
+    color: var(--primary-background-color);
+    border: 10px solid red;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 50px;
+}
+#headers-group{
+    
+}
+
+/* tutorial for laying elements out on the hmtl document
+ Replicating hte news subsection on the Oakland.edu webpage
+*/
+
+/* root note of the sction */
+
+.news-events{
+    padding: 10px;
+
+}
+
+/* Imeditate child of root node */
+
+.section-title{
+    padding: 10px;
+    margin-bottom: 20px; /* seprate next child vertically from this one */
+    width: 100%; /* max width, min width, same for height property */
+
+}
+
+.section-title-text{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #d91433;
+
+
+}
+
+.media-wrapper{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* space-around, space-between, space-evenly */
+    align-items: center;
+    flex-wrap: wrap;
+    /*flex-grow and flex-shrink */
+
+}
+
+
+.news-container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    flex-direction: column;
+
+}
+
+.news-media{
+    width: 50px;
+    margin-bottom: 30px;
+    max-width: 100px;
+    height: 50px;
+    max-height: 100px;
+    padding: 10px;
+}
+
+.news-image {
+    width: 50px;
+    max-width: 100px;
+    height: 50px; /* Adjusted for consistency */
+    max-height: 100px;
+}
+
+.news-text > a > h3 {
+    padding: 10px; /* Added missing semicolon */
+    color: #d91433;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+}

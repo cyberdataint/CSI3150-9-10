@@ -1,3 +1,5 @@
+HTML
+
 Semantic tags 
 
 Header - <Header>...... </Header>
@@ -35,3 +37,39 @@ Create - Post
 Read   - Get 
 Update - update/alter/patch 
 Delete - Delete
+
+
+
+
+CSS Style sheet 
+
+1. How to incorporate styling 
+2. CSS box model 
+3. Best practices of layout of page
+4. Syntax of differnt categories of CSS properties
+
+3 ways of styling
+1. Absolutly not to be used > Inline style 
+2. only if your styling is minimal > internal style
+3. prefered way > external style 
+-- Browser default style 
+
+--> prescendance of style application: Cascading 
+        - Browerser
+                - external 
+                        - internal 
+                                - inline
+
+
+
+1. How to incoprate styling in html 3 differnt ways 
+2. what is the concept of cascading in cascading sheets 
+3. wha tis the general syntax of css code. 
+4. what are the different ways to specfiy css selects 
+
+If you know the 4 questions you know the bascics. 
+
+
+Margin controls the spacing between html elements 
+
+padding is the border or inner seperation. Margin is the outer seperation

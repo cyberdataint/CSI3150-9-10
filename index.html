@@ -10,15 +10,22 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="./javascript/script.js" defer></script>
-    
+    <!--internal styling -->
+    <!-- <style>
+        background-color: #f0f0f0;
+
+    </style> -->
+
+<!-- external styling -->
+<link rel="stylesheet" href="./css/sytle-tutorial.css">
 
 </head>
 <body>
 <header>    <header class="header"></header>
         <nav class="navbar">
     <!-- Division for the title -->
-     <h1> title </h1>
-     <h2> this is my subtitle </h2></header>
+     <h1 id="primary-heading" class ="headers-group"> title </h1>
+     <h2 class ="headers-group"> this is my subtitle </h2></header>
      <div>
         <!-- navigation menu-->
          <nav>
@@ -179,6 +186,7 @@
 <!--- HTML Forms > Input fields  -->
 
 
+
 <!-- form element-->
 <form action="server-url.php" method="get">
     <!-- Fields to take Input -->
@@ -186,7 +194,6 @@
      <input placeholder="abc@email.com" type="email" name="useremail" id="useremail" />
      <br>
      <label for="password">Enter your Pasword:</label>
-
      <input type="password" name="password" id="password" />
     <!-- ID is for HTML and the Name is for the Server-->
     <br>
@@ -204,11 +211,101 @@
 
 </form>
 
+<section class="input-tutorials">
+    <!-- tutorial for radio buttons-->
+     <!-- present multiple options select only one -->
+      <!-- the name attributes for all radio options are the same, value and ID is diffent -->
+      <p>select your favorite pet</p>
+      <input type="radio" name="pet" id="cats" value="cats">
+      <label for="cats">Cats</label> <br>
+      <input type="radio" name="pet" id="dogs" value="dogs">
+      <label for="dogs">Dogs</label> <br>
+      <input type="radio" name="pet" id="fish" value="fish">
+      <label for="fish">Fish</label> <br>
+
+
+      <!-- tutorial for checkboxes-->
+      <!-- present multiple options, user can select mutliple options -->
+      <!-- the name attributes for all checkbox options are differnt along with value an did is also different -->
+      <p>Select mroe than one programing lanugage</p>
+    <input type="checkbox" name="lanugage" id="java" value="java">
+      <label for="java">Java</label> <br>
+      <input type="checkbox" name="lanugage" id="javascript" value="javascript">
+      <label for="javascript">javascript</label> <br>
+      <input type="checkbox" name="lanugage" id="python" value="python">
+      <label for="python">Python</label> <br>
+
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae suscipit iste sequi eos in saepe tempora, facilis, perspiciatis numquam praesentium quisquam. Eos enim odit mollitia. Aspernatur blanditiis placeat in.</div>
+
+
+    <br><br>
+
+    <!-- select from multiple options input type  -->
+    <!-- select and option , drop down menu -->
+     <label for="states">Choose your midwest state</label>
+
+     <select name="states" id="states">
+        <option value="">Select a state</option>
+        <option value="michigan">Michigan</option>
+        <option value="ohio">Ohio</option>
+        <option value="indiana">Indiana</option>
+        <option value="illinois">Illinois</option>
+        <option value="wisconsin">Wisconsin</option>
+    </select>
+        
 
 
 
+
+
+
+
+    </section>
     <main>
     <footer> Test content here </footer>
     </main>
+<!-- Section for wire frames -->
+<section class="new-events">
+    <div class="section-title">
+        <h3 class="section-title-text">News Events</h3>
+    </div>
+    <div class="media-wrapper">
+        <div class="news-container">
+            <div class="news-media">
+                <img src="assets\img\IMG_9747new.PNG" alt="" class="news-image">
+                <div class="news-text">
+                   New media
+                </div>
+            </div>
+        </div>
+        <div class="news-container">
+            <div class="news-media">
+                <img src="assets\img\IMG_9747new.PNG" alt="" class="news-image">
+                <div class="news-text">
+                    New media
+                </div>
+            </div>
+        </div>
+        <div class="news-container">
+            <div class="news-media">
+                <img src="assets\img\IMG_9747new.PNG" alt="" class="news-image">
+                <div class="news-text">
+                    New media
+                </div>
+            </div>
+        </div>
+        <div class="news-container">
+            <div class="news-media">
+                
+                <img src="assets\img\IMG_9747new.PNG" alt="" class="news-image">
+                <div class="news-text">
+                    New media
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section for wire frames -->
+
 </body>
 </html>
